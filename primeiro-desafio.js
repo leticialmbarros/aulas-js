@@ -17,7 +17,8 @@ const valorGasto = litrosConsumidos * precoCombustivel;
 console.log(valorGasto);
 */
 
- 
+//ARREDONDANDO VALORES - usa-se o .tofixed("aqui que será a quantidade de n após a casa decimal");
+
 const precoCombustivel = 5.79;
 const KmPorLitro = 12;
 const distaciaEmKm = 1580;
@@ -25,4 +26,4 @@ const distaciaEmKm = 1580;
 const litrosConsumidos = distaciaEmKm / KmPorLitro;
 const valorGasto = litrosConsumidos * precoCombustivel;
 
-console.log(valorGasto.toFixed(2)); //ARREDONDANDO VALORES - usa-se o .tofixed("aqui que será a quantidade de n após a casa decimal");
+console.log(valorGasto.toFixed(2)); 
