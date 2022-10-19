@@ -12,8 +12,8 @@
     - Acima de 40 Obsesidade Grave;
 */
 
-const peso = 63;
-const altura = 1.75;
+const peso = 60;
+const altura = 1.65;
 const imc = peso / (altura * altura); //Math.pow(altura, 2)> biblioteca de funções matematicas para potencializar ou seja "tanto ao quadrado ou ao cubo e etc"
 console.log(imc); 
 
