@@ -1,6 +1,7 @@
 //pessoa é uma classe que descreve como tem que ser uma pessoa
 // classe é uma definição de como deveria ser
 // instancia é uma ocorrencia daquele objeto
+ 
 
 class pessoa {
     nome;
@@ -22,5 +23,6 @@ const renan = new pessoa('renan', 30 );
 victor.descrever();
 renan.descrever();
 
+ 
 
 
