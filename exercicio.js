@@ -1,20 +1,11 @@
-const notas = [];
+/*
+DESAFIO 1 - 1) Crie um programa que dado um número imprima a sua tabuada.
 
-notas.push(5);
-notas.push(7);
-notas.push(8);
-notas.push(9);
-notas.push(5);
-notas.push(8);
+*/
+const numero = 9;
+for (let i = 1; i < 10; i++) {
+      console.log(i * numero);  
 
-let soma = 0;
-
-for (let i = 0; i < notas.length; i++) {
-
-        const nota = notas[i];
-        soma = soma + nota;
 }
 
 
-const media = soma / notas.length
-console.log(media);
